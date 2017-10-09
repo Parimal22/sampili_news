@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sampili.sampilinews.NineFragment">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/t9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gn"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+
+        android:id="@+id/img9"
+        android:src="@drawable/ganashakti"
+        android:layout_below="@+id/t9"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/inf9"
+        android:text="www.bangla.ganashakti.co.in\nContact:Not available"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/img9"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp" />
+
+
+        <Button
+            android:layout_marginTop="12dp"
+            android:layout_below="@id/inf9"
+            android:id="@+id/b9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Read This Paper"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sampili.sampilinews.SixFragment">
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tt"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+
+        android:id="@+id/img6"
+        android:src="@drawable/tripura"
+        android:layout_below="@+id/t6"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/inf6"
+        android:text="www.tripuratimes.com\nContact:Not available"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/img6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Read This Paper"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inf6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:id="@+id/b6" />
+
+</RelativeLayout>
